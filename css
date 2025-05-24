@@ -1,0 +1,211 @@
+/* Estilo general */
+body {
+  width: 100vw;
+  /* 100% del ancho de la ventana */
+  height: 100%;
+  /* 100% del alto de la ventana */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* fuente y tamaño predeterminada*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+
+
+}
+
+/* Contenedor principal */
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* Barra de navegación */
+.nav-bar {
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  /* Espacio entre elementos */
+}
+
+/* Lista dentro de la barra de navegación */
+.nav-bar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar a{
+  text-decoration: none;
+}
+
+.nav-bar a:hover{
+  text-decoration: underline;
+}
+
+.nav-bar button img{
+  margin-right: 40px;
+}
+
+/* Estilo de los botones */
+.nav-bar button {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  cursor: pointer;
+}
+
+/* Imágenes dentro de los botones */
+.nav-bar button img {
+  width: 35px;
+  height: 35px;
+}
+
+.google-buscador {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.logo-google {
+  margin-bottom: 32px;
+  width: 272px;
+  height: 92px;
+}
+
+.buscador {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 746px;
+  height: 48px;
+  border: 1px solid#ccc;
+  border-radius: 20px;
+}
+
+.img-lupa span img {
+  width: 80px;
+  height: 100px;
+}
+
+.google-buscador input {
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  
+}
+
+.btn-buscador button:hover{
+  cursor: pointer;
+}
+
+.btn-microfono{
+  background-color: white;
+  border: 0px;
+  margin-right: 10px;
+}
+
+.btn-microfono :hover{
+  cursor: pointer;
+}
+
+.btn-microfono span img {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
+
+.btn-camara{
+  background-color: white;
+  border: 0px;
+  margin-right: 10px;
+}
+
+.btn-camara:hover{
+  cursor:pointer;
+}
+
+.btn-camara span img {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-buscador {
+  height: 70px;
+  padding-top: 18px;
+}
+
+.btn-buscador button {
+  height: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.google-idioma {
+
+  height: 257px;
+  width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+.google-idioma a{
+  text-decoration: none;
+}
+
+.google-idioma a:hover{
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+
+}
+
+
+.anuncios-condiciones {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.anuncios-condiciones a {
+  text-decoration: none;
+}
+
+.anuncios-condiciones a:hover {
+  text-decoration: underline;
+}
+
+.anuncios-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+
+.condiciones-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+}
